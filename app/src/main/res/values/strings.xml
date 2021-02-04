@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Partha Saarth-e</string>
+    <string name="new_game">New Game</string>
+    <string name="continue_game">Continue</string>
+    <string name="explore">Explore</string>
+    <string name="quiz_type">Quiz Type</string>
+    <string name="play_quiz">Play Quiz</string>
+    <string name="story_image">Story Image</string>
+    <string name="credit">Credit</string>
+    <string name="credit_text">
+        <big><b>*****CREDITS*****\n</b>
+        <b>**********************</b></big>\n
+        \n
+        <b>SAMADHAAN</b>\n
+        <b>*****************</b>\n
+\n
+        <b>PROJECT MENTOR</b>\n
+Prof. S. Gupta\n
+\n
+<b>PROJECT COORDINATOR</b>\n
+Sourav Das\n
+        \n
+        <b>ANDROID DEVELOPER</b>B\n
+Priyabrata Naskar\n
+Saurabh Kumar\n
+\n
+        <b>UI/UX DESIGN</b>\n
+Deepak Bhatt\n
+        \n
+        <b>GRAPHICS DESIGN</b>\n
+Priyabrata Naskar\n
+Deepak Bhatt\n
+\n
+        <b>CREATIVE DESIGN</b>\n
+Sourav Das\n
+Deepak Bhatt\n
+        \n
+        <b>DATABASE DESIGN</b>\n
+Supriya Barai\n
+\n
+        <b>GAME-PLAY DESIGN</b>\n
+Md. Nawaz Rahaman\n
+Sourav Das\n
+Supriya Barai\n
+Priyabrata Naskar\n
+Deepak Bhatt\n
+Saurabh Kumar\n
+        \n
+        <b>STORY</b>\n
+Md. Nawaz Rahaman\n
+Sourav Das\n
+\n
+        <b>TRIVIA</b>\n
+Supriya Barai\n
+Deepak Bhatt\n
+Sourav Das\n
+Md. Nawaz Rahaman\n
+Priyabrata Naskar\n
+\n
+        <b>BENGALI SCRIPTING</b>\n
+Saurav Das\n
+Supriya Barai\n
+\n
+        <b>HINDI SCRIPTING</b>\n
+Deepak Bhatt\n
+Saurabh Kumar\n
+\n
+        <b>BACKGROUND SCORE</b>\n
+Md. Nawaz Rahaman\n
+\n
+        <b>SPECIAL ACKNOWLEDGEMENT</b>\n
+Prof. S. Gupta\n
+    </string>
+
+    <string name="back">Back</string>
+    <string name="sound_effect">Sound Effect</string>
+    <string name="select_language">Select Language*</string>
+    <string name="music">Music</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>
