@@ -16,3 +16,12 @@ Users can play chat based game on multiple catagories.
 
 ### Link to Figma Live Design: [here](https://www.figma.com/file/5WPCnQWxyJ7ew9nq4HIOQR/Toy-Hackathon?node-id=0%3A1)
 ### Link to Figma Prototype: [here](https://www.figma.com/proto/5WPCnQWxyJ7ew9nq4HIOQR/Toy-Hackathon?node-id=0%3A1&scaling=scale-down)
+
+## Acknowledgements
+
+Thanks to these projects and libraries:
+
+**Libraries**
+
+- [Glide](https://github.com/bumptech/glide)
+- [MDC](https://material.io/develop/android/docs/getting-started)
