@@ -16,6 +16,8 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import tech.hashincludebrain.parthasaarthe.model.Quiz;
+
 /**
  * Created by Priyabrata Naskar on 23-01-2021.
  */

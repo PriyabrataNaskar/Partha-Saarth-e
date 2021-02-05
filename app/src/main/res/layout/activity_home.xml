@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/background"
     android:scrollbars="none"
-    tools:context=".MainActivity">
+    tools:context=".HomeActivity">
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/new_game"

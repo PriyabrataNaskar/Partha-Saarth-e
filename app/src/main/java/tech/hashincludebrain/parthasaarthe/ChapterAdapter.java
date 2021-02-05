@@ -16,6 +16,8 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 
+import tech.hashincludebrain.parthasaarthe.model.Chapter;
+
 /**
  * Created by Priyabrata Naskar on 24-01-2021.
  */

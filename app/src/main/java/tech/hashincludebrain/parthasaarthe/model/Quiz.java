@@ -1,4 +1,4 @@
-package tech.hashincludebrain.parthasaarthe;
+package tech.hashincludebrain.parthasaarthe.model;
 
 /**
  * Created by Priyabrata Naskar on 23-01-2021.

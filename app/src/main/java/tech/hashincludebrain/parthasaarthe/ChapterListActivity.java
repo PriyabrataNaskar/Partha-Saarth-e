@@ -9,6 +9,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+import tech.hashincludebrain.parthasaarthe.model.Chapter;
+
 /**
  * Created by Priyabrata Naskar on 24-01-2021.
  */

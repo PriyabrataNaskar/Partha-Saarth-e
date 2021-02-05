@@ -12,7 +12,7 @@ import com.google.android.material.button.MaterialButton;
 /**
  * Created by Priyabrata Naskar on 22-01-2021.
  */
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class HomeActivity extends AppCompatActivity implements View.OnClickListener {
     MaterialButton newGameButton;
     MaterialButton continueGameButton;
     MaterialButton exploreButton;
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_home);
 
         newGameButton = findViewById(R.id.new_game);
         newGameButton.setOnClickListener(this);
