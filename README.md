@@ -25,3 +25,4 @@ Thanks to these projects and libraries:
 
 - [Glide](https://github.com/bumptech/glide)
 - [MDC](https://material.io/develop/android/docs/getting-started)
+- [Lottie](https://github.com/airbnb/lottie-android)
