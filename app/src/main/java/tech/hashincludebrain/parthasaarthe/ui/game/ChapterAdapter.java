@@ -1,4 +1,4 @@
-package tech.hashincludebrain.parthasaarthe;
+package tech.hashincludebrain.parthasaarthe.ui.game;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -16,6 +16,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 
+import tech.hashincludebrain.parthasaarthe.R;
 import tech.hashincludebrain.parthasaarthe.model.Chapter;
 
 /**

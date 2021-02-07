@@ -1,4 +1,4 @@
-package tech.hashincludebrain.parthasaarthe;
+package tech.hashincludebrain.parthasaarthe.ui.credits;
 
 import android.os.Bundle;
 import android.view.View;
@@ -6,6 +6,8 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.button.MaterialButton;
+
+import tech.hashincludebrain.parthasaarthe.R;
 
 /**
  * Created by Priyabrata Naskar on 25-01-2021.

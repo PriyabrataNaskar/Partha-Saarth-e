@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingTop="20dp"
     android:background="@drawable/background"
-    tools:context=".CreditActivity">
+    tools:context=".ui.credits.CreditActivity">
 
     <!--    <TextView-->
     <!--        android:id="@+id/heading"-->

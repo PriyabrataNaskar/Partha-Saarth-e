@@ -1,4 +1,4 @@
-package tech.hashincludebrain.parthasaarthe;
+package tech.hashincludebrain.parthasaarthe.ui.settings;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,6 +13,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.switchmaterial.SwitchMaterial;
+
+import tech.hashincludebrain.parthasaarthe.R;
+import tech.hashincludebrain.parthasaarthe.ui.credits.CreditActivity;
 
 /**
  * Created by Priyabrata Naskar on 25-01-2021.

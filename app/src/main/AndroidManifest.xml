@@ -9,12 +9,12 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.ParthaSaarthe">
-        <activity android:name=".CreditActivity"></activity>
-        <activity android:name=".SettingsActivity" />
-        <activity android:name=".QuizActivity" />
-        <activity android:name=".ChapterListActivity" />
-        <activity android:name=".QuizCategoryActivity" />
-        <activity android:name=".HomeActivity">
+        <activity android:name=".ui.credits.CreditActivity"></activity>
+        <activity android:name=".ui.settings.SettingsActivity" />
+        <activity android:name=".ui.quiz.QuizActivity" />
+        <activity android:name=".ui.game.ChapterListActivity" />
+        <activity android:name=".ui.quiz.QuizCategoryActivity" />
+        <activity android:name=".ui.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,4 +1,4 @@
-package tech.hashincludebrain.parthasaarthe;
+package tech.hashincludebrain.parthasaarthe.ui.quiz;
 
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+import tech.hashincludebrain.parthasaarthe.R;
 import tech.hashincludebrain.parthasaarthe.model.Quiz;
 
 /**
@@ -16,7 +17,7 @@ import tech.hashincludebrain.parthasaarthe.model.Quiz;
  */
 public class QuizCategoryActivity extends AppCompatActivity {
     RecyclerView mRecyclerView;
-    QuizAdapter quizArrayAdapter;
+    QuizCategoryAdapter quizArrayAdapter;
     ArrayList<Quiz> mQuizData;
 
     @Override
@@ -34,7 +35,7 @@ public class QuizCategoryActivity extends AppCompatActivity {
         mQuizData = new ArrayList<>();
 
         // Initialize the adapter and set it to the RecyclerView.
-        quizArrayAdapter = new QuizAdapter(mQuizData, this);
+        quizArrayAdapter = new QuizCategoryAdapter(mQuizData, this);
         mRecyclerView.setAdapter(quizArrayAdapter);
 
         // Get the data.

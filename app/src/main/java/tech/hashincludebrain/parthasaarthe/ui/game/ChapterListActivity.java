@@ -1,4 +1,4 @@
-package tech.hashincludebrain.parthasaarthe;
+package tech.hashincludebrain.parthasaarthe.ui.game;
 
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+import tech.hashincludebrain.parthasaarthe.R;
 import tech.hashincludebrain.parthasaarthe.model.Chapter;
 
 /**

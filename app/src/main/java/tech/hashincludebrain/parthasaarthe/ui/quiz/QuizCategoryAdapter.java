@@ -1,4 +1,4 @@
-package tech.hashincludebrain.parthasaarthe;
+package tech.hashincludebrain.parthasaarthe.ui.quiz;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,18 +16,19 @@ import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
+import tech.hashincludebrain.parthasaarthe.R;
 import tech.hashincludebrain.parthasaarthe.model.Quiz;
 
 /**
  * Created by Priyabrata Naskar on 23-01-2021.
  */
-public class QuizAdapter extends RecyclerView.Adapter<QuizAdapter.ViewHolder> {
+public class QuizCategoryAdapter extends RecyclerView.Adapter<QuizCategoryAdapter.ViewHolder> {
 
     // Member variables.
     private ArrayList<Quiz> mQuizData;
     private Context mContext;
 
-    public QuizAdapter(ArrayList<Quiz> mQuizData, Context mContext) {
+    public QuizCategoryAdapter(ArrayList<Quiz> mQuizData, Context mContext) {
         this.mQuizData = mQuizData;
         this.mContext = mContext;
     }

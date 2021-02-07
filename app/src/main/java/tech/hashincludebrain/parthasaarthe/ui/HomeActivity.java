@@ -1,4 +1,4 @@
-package tech.hashincludebrain.parthasaarthe;
+package tech.hashincludebrain.parthasaarthe.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,11 @@ import android.widget.CheckBox;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.button.MaterialButton;
+
+import tech.hashincludebrain.parthasaarthe.R;
+import tech.hashincludebrain.parthasaarthe.ui.game.ChapterListActivity;
+import tech.hashincludebrain.parthasaarthe.ui.quiz.QuizCategoryActivity;
+import tech.hashincludebrain.parthasaarthe.ui.settings.SettingsActivity;
 
 /**
  * Created by Priyabrata Naskar on 22-01-2021.

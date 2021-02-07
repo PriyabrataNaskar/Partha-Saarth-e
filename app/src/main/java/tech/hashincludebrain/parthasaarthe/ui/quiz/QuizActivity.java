@@ -1,8 +1,10 @@
-package tech.hashincludebrain.parthasaarthe;
+package tech.hashincludebrain.parthasaarthe.ui.quiz;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import tech.hashincludebrain.parthasaarthe.R;
 
 /**
  * Created by Priyabrata Naskar on 25-01-2021.
