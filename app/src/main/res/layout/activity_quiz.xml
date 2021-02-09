@@ -19,16 +19,18 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
+            android:id="@+id/quiz_linear_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/question_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="100dp"
                 android:padding="10dp"
-                android:text="Question:\n nbb bj jn jn n j"
+                tools:text="Question:\n nbb bj jn jn n j"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 app:layout_constraintBottom_toTopOf="@+id/toggleButton"
@@ -43,37 +45,55 @@
                 app:singleSelection="true">
 
                 <Button
-                    android:id="@+id/button1"
+                    android:id="@+id/option_button1"
                     style="?attr/materialButtonOutlinedStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Option 1"
+                    tools:text="Option 1"
                     android:textColor="@color/white" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/option_button2"
                     style="?attr/materialButtonOutlinedStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Option 2"
+                    tools:text="Option 2"
                     android:textColor="@color/white" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/option_button3"
                     style="?attr/materialButtonOutlinedStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Option 3"
+                    tools:text="Option 3"
                     android:textColor="@color/white" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/option_button4"
                     style="?attr/materialButtonOutlinedStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Option 4"
+                    tools:text="Option 4"
                     android:textColor="@color/white" />
             </com.google.android.material.button.MaterialButtonToggleGroup>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".95" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:clickable="false"
+        android:alpha="0.30"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_bottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
