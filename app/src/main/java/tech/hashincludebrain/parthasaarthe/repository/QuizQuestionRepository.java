@@ -2,6 +2,8 @@ package tech.hashincludebrain.parthasaarthe.repository;
 
 import androidx.lifecycle.MutableLiveData;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -39,5 +41,18 @@ public class QuizQuestionRepository {
         quizQuestionList.add(new QuizQuestionModel("Q4", "A", "B", "C", "D", "D"));
         quizQuestionList.add(new QuizQuestionModel("Q5", "A", "B", "C", "D", "B"));
         quizQuestionList.add(new QuizQuestionModel("Q6", "A", "B", "C", "D", "A"));
+        //getResources().openRawResource(R.raw.body_language);
+        //myJson=inputStreamToString(context.getResources().openRawResource(R.raw.body_language);
+    }
+
+    public String inputStreamToString(InputStream inputStream) {
+        try {
+            byte[] bytes = new byte[inputStream.available()];
+            inputStream.read(bytes, 0, bytes.length);
+            String json = new String(bytes);
+            return json;
+        } catch (IOException e) {
+            return null;
+        }
     }
 }

@@ -1,0 +1,137 @@
+{
+    "status": 200,
+    "status_message": "Success",
+    "response": [{
+            "quizNumber": "1",
+            "image": "raw/",
+            "question": "What does this body language indicate?",
+            "option1": "Shame",
+            "option2": "Sadness",
+            "option3": "Nervousness",
+            "option4": "Confidence",
+            "answer": "Nervousness",
+            "explanation": "Nail biting is a common body language behavior that helps some people relieve tension and anxiety during stressful situations.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "2",
+            "image": "raw/",
+            "question": "When talking to someone, feet pointed towards you is a sign of mutual interest.",
+            "option1": "True",
+            "option2": "False",
+            "option3": "May Be True",
+            "option4": "May Be False",
+            "answer": "True",
+            "explanation": "Feet pointing towards someone is generally a good sign of mutual attraction or interest. In large group settings, the most charismatic person will usually have the most feet pointing towards them. However, if a person feels uncomfortable or disinterested and wants to leave, the feet may be pointing away towards the exit.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "3",
+            "image": "raw/",
+            "question": "This images contain attraction cues?",
+            "option1": "True",
+            "option2": "False",
+            "option3": "May be True",
+            "option4": "May be False",
+            "answer": "True",
+            "explanation": "Winking can be associated with friendliness, but coupled with other body language cues such as an eyebrow raise and a smile, it can be a strong sign of flirtation.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "4",
+            "image": "raw/",
+            "question": "Which of the following eye movements indicates that a person is lying?",
+            "option1": "Looking left",
+            "option2": "Looking right",
+            "option3": "Looking up",
+            "option4": "None of the above",
+            "answer": "Pride",
+            "explanation": "The correct answer is none of the above. Experts suggest that being able to tell if someone is lying based on their eye movements is a myth. Currently, there is no modern scientific evidence to back up this claim.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "5",
+            "image": "raw/",
+            "question": "What does this body language cue indicate?",
+            "option1": "Happiness",
+            "option2": "Fear",
+            "option3": "Confidence",
+            "option4": "Excitement",
+            "answer": "Confidence",
+            "explanation": "This hand gesture is called steepling. Steepling occurs when someone is typically feeling confident and in charge. The higher someone holds the steeple, the more confident they feel. You will rarely see steepling from a subordinate in front of his boss, or someone who is unconfident in what they are saying. If someone is steepling in a sales negotiation, they might feel like they have the upper-hand.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "6",
+            "image": "raw/",
+            "question": "Is this a genuine smile?",
+            "option1": "True",
+            "option2": "False",
+            "option3": "May be True",
+            "option4": "May be False",
+            "answer": "False",
+            "explanation": "This is a fake smile. Real, genuine smiles typically have an indicator that is known as the “Duchenne marker.” This is what causes the corners of the eyes to form wrinkles, otherwise known as “crow’s feet.” If a person is smiling but lacks this indicator, they may be smiling just to be polite or even faking it.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "7",
+            "image": "raw/",
+            "question": "Putting objects in the mouth (such as pens, eyeglasses, fingernails) can be a sign of anxiety.",
+            "option1": "True",
+            "option2": "False",
+            "option3": "May be True",
+            "option4": "May be False",
+            "answer": "True",
+            "explanation": "Most people put objects in or near their mouth when they are anxious, tense, or stressed. This gesture mimics the same behavior of seeking comfort at our mother’s breast when we were infants.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "8",
+            "image": "raw/",
+            "question": "Crossed arms always indicate someone who is closed-off.",
+            "option1": "True",
+            "option2": "False",
+            "option3": "May be True",
+            "option4": "May be False",
+            "answer": "False",
+            "explanation": "Crossed arms is a body language cue for many different things— it can mean someone is angry, in deep concentration, feeling cold, or simply resting their arms. It does not necessarily mean someone is closed off.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "9",
+            "image": "raw/",
+            "question": "Which area of the body does someone typically touch to indicate sincerity?",
+            "option1": "Ear",
+            "option2": "Nose",
+            "option3": "Arm",
+            "option4": "Chest",
+            "answer": "Chest",
+            "explanation": "The old cliche, “touching the heart” certainly rings true here. Touching the chest with both hands is a body language cue that shows sincerity, honesty, and sympathy.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "10",
+            "image": "raw/",
+            "question": "Which of the following body language cues from this picture indicate anger?",
+            "option1": "Head tilted downwards",
+            "option2": "Eyebrow lowered",
+            "option3": "Eyebrow narrowed",
+            "option4": "All the above",
+            "answer": "All the above",
+            "explanation": "All of these body language cues demonstrate that she is showing anger.",
+            "score": "20"
+        },
+        {
+            "quizNumber": "11",
+            "image": "raw/",
+            "question": "Observe the following picture. What does their body language likely indicate?",
+            "option1": "Frustrstion",
+            "option2": "Fear",
+            "option3": "Tiredness",
+            "option4": "All the above",
+            "answer": "All the above",
+            "explanation": "Their body language signals frustration, fear, tiredness, and shame.",
+            "score": "20"
+        }
+    ]
+}

@@ -20,9 +20,10 @@ public class QuizActivityViewModel extends ViewModel {
     private QuizQuestionRepository mRepo;
 
     //holds index of the current quiz
-    private int currentIndex=-1;
+    private int currentIndex = -1;
 
     private int score;
+
     public void loadQuizQuestions() {
         if (mQuizQuestions != null) {
             return;
@@ -36,7 +37,7 @@ public class QuizActivityViewModel extends ViewModel {
     }
 
     public int getCurrentIndex() {
-        if(currentIndex==-1){
+        if (currentIndex == -1) {
             currentIndex = new Random().nextInt(mQuizQuestions.getValue().size());
         }
         return currentIndex;
@@ -46,14 +47,11 @@ public class QuizActivityViewModel extends ViewModel {
         return score;
     }
 
-    public void increaseScore(int point){
+    public void increaseScore(int point) {
         score = score + point;
     }
 
     public void setCurrentIndex() {
         currentIndex = new Random().nextInt(mQuizQuestions.getValue().size());
     }
-//    public boolean isCorrectAnswer(String answer, String correctAnswer){
-//
-//    }
 }
