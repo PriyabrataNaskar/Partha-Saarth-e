@@ -1,7 +1,6 @@
 package tech.hashincludebrain.parthasaarthe.ui.quiz;
 
 import android.animation.Animator;
-import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -75,9 +74,9 @@ public class QuizActivity extends AppCompatActivity {
 
             //Get Selected Button ID
             int id = toggleGroup.getCheckedButtonId();
-            if(isCorrectAnswer(mQuizActivityViewModel.getCurrentIndex(),findViewById(id))){
+            if (isCorrectAnswer(mQuizActivityViewModel.getCurrentIndex(), findViewById(id))) {
                 mQuizActivityViewModel.increaseScore(10);
-                Toast.makeText(this,"Score: " + mQuizActivityViewModel.getScore(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Score: " + mQuizActivityViewModel.getScore(), Toast.LENGTH_SHORT).show();
             }
 
             //Clears the selections
@@ -137,7 +136,7 @@ public class QuizActivity extends AppCompatActivity {
     /**
      * Remove background Tint from all options make all options clickable
      */
-    private void removeOptionTint(){
+    private void removeOptionTint() {
         //Change Background to default & make every option clickable
         optionButtonOne.setClickable(true);
         optionButtonOne.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark, getTheme()));
@@ -147,7 +146,7 @@ public class QuizActivity extends AppCompatActivity {
         optionButtonThree.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark, getTheme()));
         optionButtonFour.setClickable(true);
         optionButtonFour.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark, getTheme()));
-        Toast.makeText(this,"Question Loaded",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Question Loaded", Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -165,12 +164,16 @@ public class QuizActivity extends AppCompatActivity {
         answer = view.getText().toString();
         //return true if correct answer is selected
         if (correctAnswer.equals(answer)) {
-            Toast.makeText(this,"Changing to Green",Toast.LENGTH_SHORT).show();
-            view.setBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
+            Toast.makeText(this, "Changing to Green", Toast.LENGTH_SHORT).show();
+            //view.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#00FF00")));
+            view.setBackgroundColor(Color.GREEN);
+            //view.setBackgroundTintList(ColorStateList.valueOf(Color.GREEN));
             return true;
         } else {
-            Toast.makeText(this,"Changing to Red",Toast.LENGTH_SHORT).show();
-            view.setBackgroundTintList(ColorStateList.valueOf(Color.RED));
+            Toast.makeText(this, "Changing to Red", Toast.LENGTH_SHORT).show();
+            //view.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#FF0000")));
+            //view.setBackgroundTintList(ColorStateList.valueOf(Color.RED));
+            view.setBackgroundColor(Color.RED);
             return false;
         }
     }

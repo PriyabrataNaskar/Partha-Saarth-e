@@ -1,8 +1,11 @@
 package tech.hashincludebrain.parthasaarthe.viewmodel;
 
+import android.app.Application;
+
+import androidx.annotation.NonNull;
+import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
-import androidx.lifecycle.ViewModel;
 
 import java.util.List;
 import java.util.Random;
@@ -13,7 +16,7 @@ import tech.hashincludebrain.parthasaarthe.repository.QuizQuestionRepository;
 /**
  * Created by Priyabrata Naskar on 09-02-2021.
  */
-public class QuizActivityViewModel extends ViewModel {
+public class QuizActivityViewModel extends AndroidViewModel {
 
     private MutableLiveData<List<QuizQuestionModel>> mQuizQuestions;
 
@@ -24,12 +27,17 @@ public class QuizActivityViewModel extends ViewModel {
 
     private int score;
 
+    public QuizActivityViewModel(@NonNull Application application) {
+        super(application);
+        mRepo = QuizQuestionRepository.getInstance(application.getApplicationContext());
+        mQuizQuestions = mRepo.getQuizQuestionList();
+    }
+
     public void loadQuizQuestions() {
         if (mQuizQuestions != null) {
             return;
         }
-        mRepo = QuizQuestionRepository.getInstance();
-        mQuizQuestions = mRepo.getQuizQuestionList();
+
     }
 
     public LiveData<List<QuizQuestionModel>> getQuizQuestions() {
